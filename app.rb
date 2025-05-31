@@ -1,4 +1,8 @@
+require 'bundler/setup'
+Bundler.require(:default)
+
 require 'sinatra'
+require 'sinatra/reloader'
 require 'slim'
 require 'sassc'
 require 'httparty'
